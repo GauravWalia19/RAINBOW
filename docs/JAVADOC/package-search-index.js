@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"rainbow"},{"l":"rainbow.raincolorbg"},{"l":"rainbow.rainformatbg"},{"l":"rainbow.rainformatcolor"}]
