@@ -1,14 +1,14 @@
 package rainbow.rainformatcolor;
 
-public class DarkGreenRFC implements IRainFormatColor
+public class LightBlueRFC implements IRainFormatColor
 {
-    public final String BOLD        = "\u001B[1;90m";
-    public final String ITALIC      = "\u001B[3;90m";
-    public final String UNDERLINE   = "\u001B[4;90m";
-    public final String BLINK       = "\u001B[5;90m";
-    public final String CUT         = "\u001B[9;90m";
-    public final String DOUBLELINE  = "\u001B[21;90m";
-    public final String OVERLINE    = "\u001B[53;90m";
+    public final String BOLD        = "\u001B[1;94m";
+    public final String ITALIC      = "\u001B[3;94m";
+    public final String UNDERLINE   = "\u001B[4;94m";
+    public final String BLINK       = "\u001B[5;94m";
+    public final String CUT         = "\u001B[9;94m";
+    public final String DOUBLELINE  = "\u001B[21;94m";
+    public final String OVERLINE    = "\u001B[53;94m";
 
     @Override
     public String getBold() {
