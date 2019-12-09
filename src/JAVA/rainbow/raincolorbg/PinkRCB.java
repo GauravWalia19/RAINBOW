@@ -2,20 +2,20 @@ package rainbow.raincolorbg;
 
 public class PinkRCB implements IRainColorBG
 {
-    public final String BGDGREEN = "\u001B[95;40m";
-    public final String BGLGREEN = "\u001B[95;42m";
-    public final String BGMGREEN = "\u001B[95;100m";
-    public final String BGDRED   = "\u001B[95;41m";
-    public final String BGLRED   = "\u001B[95;101m";
-    public final String BGDORANGE= "\u001B[95;43m";
-    public final String BGLORANGE= "\u001B[95;102m";
-    public final String BGLBLUE  = "\u001B[95;44m";
-    public final String BGLWHITE = "\u001B[95;47m";
-    public final String BGDWHITE = "\u001B[95;107m";
-    public final String BGLEMON  = "\u001B[95;103m";
-    public final String BGMPINK  = "\u001B[95;104m";
-    public final String BGDPINK  = "\u001B[95;105m";
-    public final String BGLPINK  = "\u001B[95;106m";
+    private final String BGDGREEN = "\u001B[95;40m";
+    private final String BGLGREEN = "\u001B[95;42m";
+    private final String BGMGREEN = "\u001B[95;100m";
+    private final String BGDRED   = "\u001B[95;41m";
+    private final String BGLRED   = "\u001B[95;101m";
+    private final String BGDORANGE= "\u001B[95;43m";
+    private final String BGLORANGE= "\u001B[95;102m";
+    private final String BGLBLUE  = "\u001B[95;44m";
+    private final String BGLWHITE = "\u001B[95;47m";
+    private final String BGDWHITE = "\u001B[95;107m";
+    private final String BGLEMON  = "\u001B[95;103m";
+    private final String BGMPINK  = "\u001B[95;104m";
+    private final String BGDPINK  = "\u001B[95;105m";
+    private final String BGLPINK  = "\u001B[95;106m";
 
     @Override
     public String getBGDGREEN() {

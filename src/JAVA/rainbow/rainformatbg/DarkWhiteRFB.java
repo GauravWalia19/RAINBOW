@@ -2,13 +2,13 @@ package rainbow.rainformatbg;
 
 public class DarkWhiteRFB implements IRainFormatBG
 {
-    public final String BOLD        = "\u001B[1;107m";   
-    public final String ITALIC      = "\u001B[3;107m";   
-    public final String UNDERLINE   = "\u001B[4;107m";  
-    public final String BLINK       = "\u001B[5;107m";
-    public final String CUT         = "\u001B[9;107m";
-    public final String DOUBLELINE  = "\u001B[21;107m";
-    public final String OVERLINE    = "\u001B[53;107m";
+    private final String BOLD        = "\u001B[1;107m";   
+    private final String ITALIC      = "\u001B[3;107m";   
+    private final String UNDERLINE   = "\u001B[4;107m";  
+    private final String BLINK       = "\u001B[5;107m";
+    private final String CUT         = "\u001B[9;107m";
+    private final String DOUBLELINE  = "\u001B[21;107m";
+    private final String OVERLINE    = "\u001B[53;107m";
 
     @Override
     public String getBold() {

@@ -2,13 +2,13 @@ package rainbow.rainformatcolor;
 
 public class LightCyanRFC implements IRainFormatColor
 {
-    public final String BOLD        = "\u001B[1;96m";
-    public final String ITALIC      = "\u001B[3;96m";
-    public final String UNDERLINE   = "\u001B[4;96m";
-    public final String BLINK       = "\u001B[5;96m";
-    public final String CUT         = "\u001B[9;96m";
-    public final String DOUBLELINE  = "\u001B[21;96m";
-    public final String OVERLINE    = "\u001B[53;96m";
+    private final String BOLD        = "\u001B[1;96m";
+    private final String ITALIC      = "\u001B[3;96m";
+    private final String UNDERLINE   = "\u001B[4;96m";
+    private final String BLINK       = "\u001B[5;96m";
+    private final String CUT         = "\u001B[9;96m";
+    private final String DOUBLELINE  = "\u001B[21;96m";
+    private final String OVERLINE    = "\u001B[53;96m";
 
     @Override
     public String getBold() {
